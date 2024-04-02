@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');
+
+:root {
+  --rich-black: #051014;
+  --rich-black2:rgb(5, 17, 12);
+  --pistache: #8acb88;
+  --pluma: #824670;
+  --tropical: #858AE3;
+  --pale: #97DFFC;
+}
+
+
+body, html {
+
+  scroll-behavior: smooth;
+
+  height: 100%;
+  box-sizing: border-box;
+
+  font-family: 'Sen', sans-serif;
+
+  background-image: radial-gradient(var(--rich-black2), var(--rich-black));
+
+}
+
+.App{
+  width: 100%;
+  height: 100%;
+
+  position: absolute;
+}
+
+main{
+  max-width: 85%;
+  margin: 0 auto;
+  height: 100%;
+
+  text-align: center;
+
+  color: var(--pistache);
+
+}
+
+.section-main-banner1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+span{
+  background-color: #8acb88;
+  color: #051014;
+  border-radius: 20px;
+  padding: 10px;
+
+  box-shadow: 0 0 100px rgba(78, 211, 73, 0.2);
+
+}
+
+.section-main-banner1 h1{
+  font-size: 70px;
+  margin: 0;
+
+  color: white;
+
+}
+
+.section-main-banner1 p{
+  font-size: 15px;
+}
+
+.ultimate-section-main{
+  padding: 0;
+  display: flex;
+  gap: 2em;
+
+  margin-top: 5em;
+
+}
+.ultimate-section-main a{
+  background-color: var(--pistache);
+  padding: 5px 20px 5px 20px;
+
+  font-weight: bolder;
+
+  font-size: 20px;
+  border-radius: 5px;
+
+  text-decoration: none;
+  color: #051014;
+}
+.ultimate-section-main a:hover{
+  background-color: #9fdb9d;
+}
+
+.who-is-friday{
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+
+  position: relative;
+}
+
+.friday-card{
+
+  border-radius: 20px;
+
+  border: .5px solid #8acb88;
+  margin: 0 auto;
+
+  box-shadow: 0 0 100px rgba(78, 211, 73, 0.2);
+  
+  transition: 200ms linear;
+
+  width: 980px;
+}
+
+.content ul{
+  padding: 0;
+  display: flex;
+  gap: 2em;
+  font-size: 20px;
+
+  position: absolute;
+  list-style-type: none;
+}
+
+.content ul li{
+  background-color: #5dee59;
+  color: #051014;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  font-weight: bolder;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  padding-block: 10px;
+  mask: linear-gradient(90deg,transparent, black, black, transparent);
+  background-color: rgba(79, 218, 75, 0.05);
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.card figure{
+  width: 320px;
+  height: 220px;
+  background-color: #8acb88;
+  border-radius: 100%;
+}
+.card figure img{
+  border-radius: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.content{
+  text-align: left;
+  width: 100%;
+}
+.content h2{
+  font-size: 3em;
+  margin: 0;
+}
+
+.content hr{
+  border: 1px solid #8acb88;
+  border-radius: 100%;
+}
+
+.who-content{
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 10em;
+  margin-bottom: 5em;
+}
+.who-content h2{
+  font-size: 50px;
+  color: white;
+  margin: 0;
+}
+
+.friday-card:hover{
+  scale: 1.02;
+}
+
+
+.ultimate-command{
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 2em;
+  align-items: center;
+  padding: 0;
+  justify-content: center;
+  margin: 0 auto;
+
+  margin-top: 5em;
+
+}
+.ultimate-command li{
+  list-style: none;
+  text-align: left;
+
+  width: 450px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #8acb88;
+
+}
+.ultimate-command hr{
+  border-radius: 100%;
+  width: 100%;
+  border: 1px solid #8acb88;
+}
+.ultimate-command h2{
+  background-color: #5dee59;
+  color: #051014;
+  border-radius: 5px;
+  padding: 5px 10px 5px 10px;
+  width: 30%;
+  box-shadow: 0 0 100px rgba(78, 211, 73, 0.2);
+ 
+}
+.ultimate-command li p{
+  width: 100%;
+  font-size: 15px;
+}
+
+.commands h1{
+  font-size: 50px;
+  color: white;
+}
+.commands p{
+  font-size: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.Add-friday{
+  margin-top: 20em;
+}
+.Add-friday h2{
+  font-size: 50px;
+  color: white;
+}
+
+.Add-friday p{
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+form{
+  margin: 0 auto;
+  padding-block: 5em;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+form ul{
+  padding: 0;
+  width: 100%;
+  display: flex;
+  gap: 2em;
+}
+
+form ul input{
+  width: 100%;
+}
+
+.Add-friday input{
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+
+
+.Add-friday input:focus{
+  outline: 2px solid #5dee59;
+}
+.Add-friday button{
+  font-size: 25px;
+  font-weight: bolder;
+  border: none;
+  border-radius: 5px;
+  background-color: #5dee59;
+  color: #051014;
+  padding: 5px;
+
+  transition: 250ms ease-in-out;
+
+}
+.Add-friday button:hover{
+  scale: 1.05;
+}
+
+footer{
+  position: absolute;
+  left: 0;
+  padding: 0;
+  margin-top: 20em;
+  text-align: center;
+  color: #051014;
+
+  box-shadow: 0 0 50px #5dee59;
+  width: 100%;
+  background-color: #5dee59;
+}
+
+footer h1{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.ultimates{
+  padding: 0;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.ultimates ul{
+  padding: 0;
+}
+
+.ultimates h2{
+  text-align: center;
+}
+
+@media screen and (max-width: 450px) {
+  .App{
+    position: relative;
+  }
+  main{
+    position: absolute;
+    width: 100%;
+    margin: 0;
+  }
+
+  .section-main-banner1 h1{
+    font-size: 40px;
+  }
+  span{
+    padding: 4px;
+    font-size: 40px;
+  }
+
+  .ultimate-section-main{
+    gap: 1em;
+  }
+
+  .ultimate-section-main a{
+    padding: 5px;
+  }
+
+  .who-is-friday{
+    width: 100%;
+  }
+
+  .who-is-friday h2{
+    font-size: 25px;
+  }
+  .who-is-friday span{
+    font-size: 20px;
+  }
+
+}

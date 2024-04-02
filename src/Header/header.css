@@ -1,0 +1,22 @@
+header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(138, 203, 136, 0.02);
+    text-align: center;
+    border-bottom: .5px solid rgba(138, 203, 136, 0.1);
+
+    color: var(--pistache);
+
+    font-weight: bolder;
+    
+    z-index: 9;
+
+    backdrop-filter: blur(20px);
+
+}
+
+header h1{
+    margin: 15px;
+    font-size: 30px;
+}
